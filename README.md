@@ -8,4 +8,4 @@
 
 3. Achieve data by running `download_data.sh` script.
 
-4. Run cells of [baseline notebook](baseline.ipynb) one by one in VSCode.
+4. Run cells of [baseline notebook](baseline_reproduced.ipynb) one by one in VSCode.
