@@ -1,0 +1,38 @@
+digraph {
+	subgraph "cluster77 x 433" {
+		X [label="X
+~
+Data" shape=box style="rounded, filled"]
+		label="77 x 433" labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster33341 {
+		"μ" [label="μ
+~
+Deterministic" shape=box]
+		pooled [label="pooled
+~
+Normal" shape=ellipse style=filled]
+		Y [label="Y
+~
+Data" shape=box style="rounded, filled"]
+		label=33341 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster77 {
+		"σ" [label="σ
+~
+HalfNormal" shape=ellipse]
+		"β" [label="β
+~
+Normal" shape=ellipse]
+		"α" [label="α
+~
+Normal" shape=ellipse]
+		label=77 labeljust=r labelloc=b style=rounded
+	}
+	pooled -> Y
+	X -> "μ"
+	"β" -> "μ"
+	"α" -> "μ"
+	"σ" -> pooled
+	"μ" -> pooled
+}
