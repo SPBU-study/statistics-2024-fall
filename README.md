@@ -2,7 +2,7 @@
 
 ### Steps to reproduce baseline
 
-1. Install pymc in conda environment following [by this instruction](https://www.pymc.io/projects/docs/en/stable/installation.html).
+1. Install pymc in conda environment following by [this instruction](https://www.pymc.io/projects/docs/en/stable/installation.html).
 
 2. Run `conda install -y cufflinks-py scikit-learn` in created pymc environment.
 
