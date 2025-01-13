@@ -31,10 +31,10 @@
 | Unpooled     | Improved  | 0.67    | 1.51   | 
 | Pooled       | Original   | 0.93    | 0.22   |
 | Pooled       | Reproduced  | 0.89    | 0.2    |
-| Pooled       | Improved |  |  |
+| Pooled       | Improved | 0.89 | 0.2 |
 | Hierarchical | Original   | 0.93    | 0.22   |
 | Hierarchical | Reproduced  | -133.14 | 253.12 |
-| Hierarchical | Improved  | | |
+| Hierarchical | Improved  | -133.15 | 253.13 |
 
 ### Analyze
 
