@@ -42,7 +42,7 @@
 - So we can use not just an exponential model but something else (maybe mixing of first 50 days and remaining — motivation is that first days people were panicked and after that all goes in another way)
 - For different countries we get exclusive pictures of confirmed cases (but common pattern is great growth in the beginning and slightly growth in all remaining time)
 - Ours hierarchical model is strange fitted (maybe there are some bug but we spent several hours and found no one)
-- Covid-19 is a interesting thing. On the one hand, there are much cases when different events were happened like lockdown, vaccination and others in different countries and states. On the other hand, read data distribution is too hard to predict it well so we can improve it infinitely by adding trying make some assumptions
+- Covid-19 is an interesting thing. On the one hand, there are much cases when different events were happened like lockdown, vaccination and others in different countries and states. On the other hand, read data distribution is too hard to predict it well so we can improve it infinitely by adding trying make some assumptions
 
 ### Additional
 
