@@ -21,14 +21,17 @@
 - This repo with instruction to reproduce baseline & our improvements of it
 - Table with metrics for US country (`Ours = No` means that numbers are from original notebook and was calculated on first 50 days only)
 
-| Model        | Ours | R2   | MSE  |
+| Model        | Type | R2   | MSE  |
 | -------------  | ------------- | ------------- | ------------- |
-| Unpooled     | No   | 0.93    | 0.58   | 
-| Unpooled     | Yes  | 0.67    | 1.51   | 
-| Pooled       | No   | 0.93    | 0.22   |
-| Pooled       | Yes  | 0.89    | 0.2    |
-| Hierarchical | No   | 0.93    | 0.22   |
-| Hierarchical | Yes  | -133.14 | 253.12 |
+| Unpooled     | Original   | 0.93    | 0.58   | 
+| Unpooled     | Reproduced  | 0.67    | 1.51   | 
+| Unpooled     | Improved  | 0.67    | 1.51   | 
+| Pooled       | Original   | 0.93    | 0.22   |
+| Pooled       | Reproduced  | 0.89    | 0.2    |
+| Pooled       | Improved |    |   |
+| Hierarchical | Original   | 0.93    | 0.22   |
+| Hierarchical | Reproduced  | -133.14 | 253.12 |
+| Hierarchical | Improved  | | |
 
 ### Analyze
 
