@@ -2,13 +2,15 @@
 
 ### Steps to reproduce baseline ([There](baseline_original.ipynb) is an original notebook. Achieved from [kaggle.com](https://www.kaggle.com/code/hotessy/capri-exponential-model-using-pymc3))
 
+**It is better to run by yourself than view in GitHub because of interactive graphics in some cells**. 
+
 1. Install pymc in conda environment following by [this instruction](https://www.pymc.io/projects/docs/en/stable/installation.html)
 
 2. Run `conda install -y cufflinks-py scikit-learn` in created pymc environment
 
 3. Achieve data by running `download_data.sh` script
 
-4. Run cells of [baseline notebook](baseline_reproduced.ipynb) one by one in VSCode
+4. Run cells of [baseline notebook](baseline_reproduced.ipynb) one by one in VSCode.
 
 ### Steps to reproduce our improvements
 
