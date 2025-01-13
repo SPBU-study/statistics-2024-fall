@@ -53,3 +53,4 @@
 ### Additional
 
 - Nikita's notes [here](Nikita's-notes.md)
+- Leonya's notes [here](leonya_notes.md)
