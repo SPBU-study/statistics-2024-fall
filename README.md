@@ -1,6 +1,6 @@
 # statistics-2024-fall
 
-### Steps to reproduce baseline ([Link](baseline_original.ipynb) to original notebook. Also available [here](https://www.kaggle.com/code/hotessy/capri-exponential-model-using-pymc3))
+### Steps to reproduce baseline ([There](baseline_original.ipynb) is an original notebook. Achieved from [kaggle.com](https://www.kaggle.com/code/hotessy/capri-exponential-model-using-pymc3))
 
 1. Install pymc in conda environment following by [this instruction](https://www.pymc.io/projects/docs/en/stable/installation.html)
 
