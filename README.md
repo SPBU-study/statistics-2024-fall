@@ -22,7 +22,7 @@
 - Table with metrics for US country. `Type = `
   - `Original` means that numbers are from original notebook and was calculated on first 50 days only
   - `Reproduced` means that original notebook was refreshed by new syntax libraries and new data (500 days)
-  - `Imrpoved` means that refreshed notebook was improved by filtered data 
+  - `Improved` means that refreshed notebook was improved by filtered data 
 
 | Model        | Type | R2   | MSE  |
 | -------------  | ------------- | ------------- | ------------- |
