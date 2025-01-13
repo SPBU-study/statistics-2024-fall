@@ -36,13 +36,19 @@
 | Hierarchical | Reproduced  | -133.14 | 253.12 |
 | Hierarchical | Improved  | -133.15 | 253.13 |
 
+- Nice pictures of models
+  - [Unpooled](unpooled_model.png.png)
+  - [Pooled](pooled_model.png.png)
+  - [Hierarchical](hierarchical_model.png.png) — careful!
+
 ### Analyze
 
 - Baseline is deprecated because it used only 50 first days (since original notebook is 5 years old) and with all data (almost 500 days) old assumptions are not enough
 - So we can use not just an exponential model but something else (maybe mixing of first 50 days and remaining — motivation is that first days people were panicked and after that all goes in another way)
 - For different countries we get exclusive pictures of confirmed cases (but common pattern is great growth in the beginning and slightly growth in all remaining time)
-- Ours hierarchical model is strange fitted (maybe there are some bug but we spent several hours and found no one)
-- Covid-19 is an interesting thing. On the one hand, there are much cases when different events were happened like lockdown, vaccination and others in different countries and states. On the other hand, real data distribution is too hard to predict it well so we can improve it infinitely by adding some info in model and trying make some assumptions
+- Our hierarchical models is strange fitted (maybe there are some bug but we spent several hours and found no one)
+- Our improved models has no improvement in metrics compared to reproduced. Our guess is that confirmed cases is too much for every country so few cases with negative diff are ignorable for the models.
+- Overall, Covid-19 is an interesting thing. On the one hand, there are much cases when different events were happened like lockdown, vaccination and others in different countries and states. On the other hand, real data distribution is too hard to predict it well so we can improve it infinitely by adding some info in model and trying make some assumptions
 
 ### Additional
 
