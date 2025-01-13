@@ -19,7 +19,7 @@
 ### Results
 
 - This repo with instruction to reproduce baseline & our improvements of it
-- Table with metrics for US country (`Ours = No` means that numbers are from original notebook and was calculated on first 50 days only)
+- Table with metrics for US country (`Type = Original` means that numbers are from original notebook and was calculated on first 50 days only)
 
 | Model        | Type | R2   | MSE  |
 | -------------  | ------------- | ------------- | ------------- |
