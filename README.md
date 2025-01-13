@@ -12,8 +12,7 @@
 
 ### Results
 
-- This repo with instruction to reproduce baseline & our improvements
-- Baseline is deprecated because it used only 50 first days (since original notebook is 5 years old) and with all data (almost 500 days) old assumptions are not enough
+- This repo with instruction to reproduce baseline & our improvements of it
 - Table with metrics for US country (`Ours = No` means that numbers are from original notebook and was calculated on first 50 days only)
 
 | Model        | Ours | R2   | MSE  |
@@ -24,3 +23,14 @@
 | Pooled       | Yes  | 0.89    | 0.2    |
 | Hierarchical | No   | 0.93    | 0.22   |
 | Hierarchical | Yes  | -133.14 | 253.12 |
+
+### Analyze
+
+- Baseline is deprecated because it used only 50 first days (since original notebook is 5 years old) and with all data (almost 500 days) old assumptions are not enough
+- So we can use not just an exponential model but something else (maybe mixing of first 50 days and remaining — motivation is that first days people were panicked and after that all goes in another way)
+- For different countries we get exclusive pictures of confirmed cases (but common pattern is great growth in the beginning and slightly growth in all remaining time)
+- Ours hierarchical model is strange fitted (maybe there are some bug but we spent several hours and found no one)
+
+### Additional
+
+- Nikita's notes [here](Nikita's-notes.md)
