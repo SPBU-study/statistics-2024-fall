@@ -5,5 +5,5 @@ Work that I done:
    - Set up an environment
    - Rewrite deprecated things in notebook (guy used pymc3 so it was not a trivial work)
    - Debug code & think about how to improve baseline
-4. Collect and analyze results of reproduction
+4. Collect and analyze results of reproduction & filtering experiment
 5. Write [README.md](README.md)
