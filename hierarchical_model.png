@@ -8,9 +8,6 @@ Data" shape=box style="rounded, filled"]
 Data" shape=box style="rounded, filled"]
 		label="75 x 433" labeljust=r labelloc=b style=rounded
 	}
-	"β_μ" [label="β_μ
-~
-Normal" shape=ellipse]
 	"β_σ" [label="β_σ
 ~
 HalfNormal" shape=ellipse]
@@ -20,923 +17,926 @@ Normal" shape=ellipse]
 	"α_σ" [label="α_σ
 ~
 HalfNormal" shape=ellipse]
+	"β_μ" [label="β_μ
+~
+Normal" shape=ellipse]
 	subgraph cluster75 {
-		"α" [label="α
+		"β" [label="β
 ~
 Normal" shape=ellipse]
 		"σ" [label="σ
 ~
 HalfNormal" shape=ellipse]
-		"β" [label="β
+		"α" [label="α
 ~
 Normal" shape=ellipse]
 		label=75 labeljust=r labelloc=b style=rounded
 	}
 	subgraph cluster433 {
-		US [label="US
-~
-Normal" shape=ellipse style=filled]
-		Finland [label="Finland
-~
-Normal" shape=ellipse style=filled]
-		Israel [label="Israel
-~
-Normal" shape=ellipse style=filled]
-		"μ_Mexico" [label="μ_Mexico
-~
-Deterministic" shape=box]
-		Slovakia [label="Slovakia
-~
-Normal" shape=ellipse style=filled]
-		"μ_Bulgaria" [label="μ_Bulgaria
-~
-Deterministic" shape=box]
-		"μ_Lebanon" [label="μ_Lebanon
-~
-Deterministic" shape=box]
-		"μ_Peru" [label="μ_Peru
-~
-Deterministic" shape=box]
-		"μ_Argentina" [label="μ_Argentina
-~
-Deterministic" shape=box]
-		Estonia [label="Estonia
-~
-Normal" shape=ellipse style=filled]
-		"μ_Costa Rica" [label="μ_Costa Rica
-~
-Deterministic" shape=box]
-		Lebanon [label="Lebanon
-~
-Normal" shape=ellipse style=filled]
-		Jordan [label="Jordan
-~
-Normal" shape=ellipse style=filled]
-		"μ_Qatar" [label="μ_Qatar
-~
-Deterministic" shape=box]
-		"μ_Sweden" [label="μ_Sweden
-~
-Deterministic" shape=box]
-		Andorra [label="Andorra
-~
-Normal" shape=ellipse style=filled]
-		"μ_Egypt" [label="μ_Egypt
-~
-Deterministic" shape=box]
-		Serbia [label="Serbia
-~
-Normal" shape=ellipse style=filled]
-		Moldova [label="Moldova
-~
-Normal" shape=ellipse style=filled]
-		"μ_Norway" [label="μ_Norway
-~
-Deterministic" shape=box]
-		"μ_Japan" [label="μ_Japan
-~
-Deterministic" shape=box]
-		Japan [label="Japan
-~
-Normal" shape=ellipse style=filled]
-		"μ_Lithuania" [label="μ_Lithuania
-~
-Deterministic" shape=box]
-		"μ_Algeria" [label="μ_Algeria
-~
-Deterministic" shape=box]
-		"μ_Romania" [label="μ_Romania
-~
-Deterministic" shape=box]
-		Romania [label="Romania
-~
-Normal" shape=ellipse style=filled]
-		Brazil [label="Brazil
-~
-Normal" shape=ellipse style=filled]
-		Austria [label="Austria
-~
-Normal" shape=ellipse style=filled]
-		Australia [label="Australia
-~
-Normal" shape=ellipse style=filled]
-		Norway [label="Norway
-~
-Normal" shape=ellipse style=filled]
-		Spain [label="Spain
-~
-Normal" shape=ellipse style=filled]
-		Algeria [label="Algeria
-~
-Normal" shape=ellipse style=filled]
-		Portugal [label="Portugal
-~
-Normal" shape=ellipse style=filled]
-		Poland [label="Poland
-~
-Normal" shape=ellipse style=filled]
-		Croatia [label="Croatia
-~
-Normal" shape=ellipse style=filled]
-		"μ_United Kingdom" [label="μ_United Kingdom
-~
-Deterministic" shape=box]
-		"μ_Luxembourg" [label="μ_Luxembourg
-~
-Deterministic" shape=box]
-		"μ_Croatia" [label="μ_Croatia
-~
-Deterministic" shape=box]
-		Sweden [label="Sweden
-~
-Normal" shape=ellipse style=filled]
-		"μ_Denmark" [label="μ_Denmark
-~
-Deterministic" shape=box]
-		Singapore [label="Singapore
-~
-Normal" shape=ellipse style=filled]
-		Cyprus [label="Cyprus
-~
-Normal" shape=ellipse style=filled]
-		"μ_South Africa" [label="μ_South Africa
-~
-Deterministic" shape=box]
-		"μ_Estonia" [label="μ_Estonia
-~
-Deterministic" shape=box]
-		"μ_Austria" [label="μ_Austria
-~
-Deterministic" shape=box]
-		"United Arab Emirates" [label="United Arab Emirates
-~
-Normal" shape=ellipse style=filled]
-		"μ_Poland" [label="μ_Poland
-~
-Deterministic" shape=box]
-		Netherlands [label="Netherlands
-~
-Normal" shape=ellipse style=filled]
-		Egypt [label="Egypt
-~
-Normal" shape=ellipse style=filled]
-		"μ_Greece" [label="μ_Greece
-~
-Deterministic" shape=box]
-		"μ_Cyprus" [label="μ_Cyprus
-~
-Deterministic" shape=box]
-		Colombia [label="Colombia
-~
-Normal" shape=ellipse style=filled]
-		India [label="India
-~
-Normal" shape=ellipse style=filled]
-		"μ_Italy" [label="μ_Italy
-~
-Deterministic" shape=box]
-		Luxembourg [label="Luxembourg
-~
-Normal" shape=ellipse style=filled]
-		"μ_Albania" [label="μ_Albania
-~
-Deterministic" shape=box]
-		"μ_Bahrain" [label="μ_Bahrain
-~
-Deterministic" shape=box]
-		Switzerland [label="Switzerland
-~
-Normal" shape=ellipse style=filled]
-		Philippines [label="Philippines
-~
-Normal" shape=ellipse style=filled]
-		Iran [label="Iran
-~
-Normal" shape=ellipse style=filled]
-		"μ_Germany" [label="μ_Germany
-~
-Deterministic" shape=box]
-		"μ_Brazil" [label="μ_Brazil
-~
-Deterministic" shape=box]
-		"μ_Turkey" [label="μ_Turkey
-~
-Deterministic" shape=box]
 		"South Africa" [label="South Africa
 ~
 Normal" shape=ellipse style=filled]
-		Bulgaria [label="Bulgaria
+		Japan [label="Japan
 ~
 Normal" shape=ellipse style=filled]
-		"μ_Panama" [label="μ_Panama
+		"μ_Brazil" [label="μ_Brazil
 ~
 Deterministic" shape=box]
-		"μ_Portugal" [label="μ_Portugal
-~
-Deterministic" shape=box]
-		"μ_Serbia" [label="μ_Serbia
-~
-Deterministic" shape=box]
-		Peru [label="Peru
-~
-Normal" shape=ellipse style=filled]
-		"μ_Slovakia" [label="μ_Slovakia
-~
-Deterministic" shape=box]
-		"μ_Ireland" [label="μ_Ireland
-~
-Deterministic" shape=box]
-		"μ_Morocco" [label="μ_Morocco
-~
-Deterministic" shape=box]
-		"μ_Slovenia" [label="μ_Slovenia
-~
-Deterministic" shape=box]
-		"μ_Hungary" [label="μ_Hungary
-~
-Deterministic" shape=box]
-		Italy [label="Italy
-~
-Normal" shape=ellipse style=filled]
-		"μ_Russia" [label="μ_Russia
-~
-Deterministic" shape=box]
-		"μ_North Macedonia" [label="μ_North Macedonia
-~
-Deterministic" shape=box]
-		Malta [label="Malta
-~
-Normal" shape=ellipse style=filled]
-		Denmark [label="Denmark
-~
-Normal" shape=ellipse style=filled]
-		Panama [label="Panama
-~
-Normal" shape=ellipse style=filled]
-		"United Kingdom" [label="United Kingdom
-~
-Normal" shape=ellipse style=filled]
-		Indonesia [label="Indonesia
-~
-Normal" shape=ellipse style=filled]
-		Iraq [label="Iraq
-~
-Normal" shape=ellipse style=filled]
-		"μ_Finland" [label="μ_Finland
-~
-Deterministic" shape=box]
-		Malaysia [label="Malaysia
-~
-Normal" shape=ellipse style=filled]
-		"μ_Uruguay" [label="μ_Uruguay
-~
-Deterministic" shape=box]
-		"Saudi Arabia" [label="Saudi Arabia
-~
-Normal" shape=ellipse style=filled]
-		"μ_Iran" [label="μ_Iran
-~
-Deterministic" shape=box]
-		Uruguay [label="Uruguay
-~
-Normal" shape=ellipse style=filled]
-		Armenia [label="Armenia
-~
-Normal" shape=ellipse style=filled]
-		Belgium [label="Belgium
-~
-Normal" shape=ellipse style=filled]
-		Bahrain [label="Bahrain
-~
-Normal" shape=ellipse style=filled]
-		"μ_Czechia" [label="μ_Czechia
-~
-Deterministic" shape=box]
-		"μ_Armenia" [label="μ_Armenia
-~
-Deterministic" shape=box]
-		"Bosnia and Herzegovina" [label="Bosnia and Herzegovina
-~
-Normal" shape=ellipse style=filled]
-		"μ_Jordan" [label="μ_Jordan
-~
-Deterministic" shape=box]
-		Morocco [label="Morocco
-~
-Normal" shape=ellipse style=filled]
-		Turkey [label="Turkey
-~
-Normal" shape=ellipse style=filled]
-		Qatar [label="Qatar
-~
-Normal" shape=ellipse style=filled]
-		"Costa Rica" [label="Costa Rica
-~
-Normal" shape=ellipse style=filled]
-		"μ_Iraq" [label="μ_Iraq
-~
-Deterministic" shape=box]
-		"Dominican Republic" [label="Dominican Republic
-~
-Normal" shape=ellipse style=filled]
-		"μ_Netherlands" [label="μ_Netherlands
-~
-Deterministic" shape=box]
-		Czechia [label="Czechia
-~
-Normal" shape=ellipse style=filled]
-		"μ_Saudi Arabia" [label="μ_Saudi Arabia
-~
-Deterministic" shape=box]
-		"North Macedonia" [label="North Macedonia
-~
-Normal" shape=ellipse style=filled]
-		"μ_US" [label="μ_US
-~
-Deterministic" shape=box]
-		"μ_Kuwait" [label="μ_Kuwait
-~
-Deterministic" shape=box]
-		"μ_Switzerland" [label="μ_Switzerland
-~
-Deterministic" shape=box]
-		"μ_Chile" [label="μ_Chile
-~
-Deterministic" shape=box]
-		Chile [label="Chile
-~
-Normal" shape=ellipse style=filled]
-		Mexico [label="Mexico
-~
-Normal" shape=ellipse style=filled]
-		Canada [label="Canada
-~
-Normal" shape=ellipse style=filled]
-		"μ_Malta" [label="μ_Malta
-~
-Deterministic" shape=box]
-		"μ_Dominican Republic" [label="μ_Dominican Republic
-~
-Deterministic" shape=box]
-		Ecuador [label="Ecuador
-~
-Normal" shape=ellipse style=filled]
-		"μ_Thailand" [label="μ_Thailand
-~
-Deterministic" shape=box]
-		"μ_Belgium" [label="μ_Belgium
-~
-Deterministic" shape=box]
-		"μ_United Arab Emirates" [label="μ_United Arab Emirates
-~
-Deterministic" shape=box]
-		"μ_Moldova" [label="μ_Moldova
-~
-Deterministic" shape=box]
-		"μ_Australia" [label="μ_Australia
-~
-Deterministic" shape=box]
-		Latvia [label="Latvia
-~
-Normal" shape=ellipse style=filled]
-		"μ_India" [label="μ_India
-~
-Deterministic" shape=box]
-		"μ_Israel" [label="μ_Israel
-~
-Deterministic" shape=box]
-		Russia [label="Russia
-~
-Normal" shape=ellipse style=filled]
-		"μ_Singapore" [label="μ_Singapore
-~
-Deterministic" shape=box]
-		"μ_Colombia" [label="μ_Colombia
-~
-Deterministic" shape=box]
-		"μ_France" [label="μ_France
-~
-Deterministic" shape=box]
-		"μ_Latvia" [label="μ_Latvia
-~
-Deterministic" shape=box]
-		Kuwait [label="Kuwait
-~
-Normal" shape=ellipse style=filled]
-		"μ_Malaysia" [label="μ_Malaysia
-~
-Deterministic" shape=box]
-		"μ_Spain" [label="μ_Spain
-~
-Deterministic" shape=box]
-		"μ_Andorra" [label="μ_Andorra
-~
-Deterministic" shape=box]
-		France [label="France
-~
-Normal" shape=ellipse style=filled]
-		Greece [label="Greece
-~
-Normal" shape=ellipse style=filled]
-		"μ_Indonesia" [label="μ_Indonesia
-~
-Deterministic" shape=box]
-		Ireland [label="Ireland
-~
-Normal" shape=ellipse style=filled]
-		"μ_Pakistan" [label="μ_Pakistan
-~
-Deterministic" shape=box]
-		"μ_Ecuador" [label="μ_Ecuador
-~
-Deterministic" shape=box]
-		"μ_Bosnia and Herzegovina" [label="μ_Bosnia and Herzegovina
+		"μ_United Kingdom" [label="μ_United Kingdom
 ~
 Deterministic" shape=box]
 		Argentina [label="Argentina
 ~
 Normal" shape=ellipse style=filled]
-		Germany [label="Germany
-~
-Normal" shape=ellipse style=filled]
-		"μ_Canada" [label="μ_Canada
-~
-Deterministic" shape=box]
-		Hungary [label="Hungary
-~
-Normal" shape=ellipse style=filled]
-		Slovenia [label="Slovenia
-~
-Normal" shape=ellipse style=filled]
-		Thailand [label="Thailand
+		Poland [label="Poland
 ~
 Normal" shape=ellipse style=filled]
 		Pakistan [label="Pakistan
 ~
 Normal" shape=ellipse style=filled]
+		Norway [label="Norway
+~
+Normal" shape=ellipse style=filled]
+		"μ_Denmark" [label="μ_Denmark
+~
+Deterministic" shape=box]
+		Panama [label="Panama
+~
+Normal" shape=ellipse style=filled]
+		"μ_Slovakia" [label="μ_Slovakia
+~
+Deterministic" shape=box]
+		"μ_Serbia" [label="μ_Serbia
+~
+Deterministic" shape=box]
+		"μ_Dominican Republic" [label="μ_Dominican Republic
+~
+Deterministic" shape=box]
+		"μ_North Macedonia" [label="μ_North Macedonia
+~
+Deterministic" shape=box]
+		Philippines [label="Philippines
+~
+Normal" shape=ellipse style=filled]
+		"μ_Thailand" [label="μ_Thailand
+~
+Deterministic" shape=box]
+		Lebanon [label="Lebanon
+~
+Normal" shape=ellipse style=filled]
+		"μ_Austria" [label="μ_Austria
+~
+Deterministic" shape=box]
+		Belgium [label="Belgium
+~
+Normal" shape=ellipse style=filled]
+		"μ_Czechia" [label="μ_Czechia
+~
+Deterministic" shape=box]
 		Albania [label="Albania
+~
+Normal" shape=ellipse style=filled]
+		Egypt [label="Egypt
+~
+Normal" shape=ellipse style=filled]
+		"μ_Morocco" [label="μ_Morocco
+~
+Deterministic" shape=box]
+		"μ_Colombia" [label="μ_Colombia
+~
+Deterministic" shape=box]
+		"μ_Costa Rica" [label="μ_Costa Rica
+~
+Deterministic" shape=box]
+		"μ_Pakistan" [label="μ_Pakistan
+~
+Deterministic" shape=box]
+		"μ_Spain" [label="μ_Spain
+~
+Deterministic" shape=box]
+		Mexico [label="Mexico
+~
+Normal" shape=ellipse style=filled]
+		Armenia [label="Armenia
+~
+Normal" shape=ellipse style=filled]
+		"μ_Malta" [label="μ_Malta
+~
+Deterministic" shape=box]
+		"Dominican Republic" [label="Dominican Republic
+~
+Normal" shape=ellipse style=filled]
+		"μ_Sweden" [label="μ_Sweden
+~
+Deterministic" shape=box]
+		"μ_Saudi Arabia" [label="μ_Saudi Arabia
+~
+Deterministic" shape=box]
+		"μ_Iraq" [label="μ_Iraq
+~
+Deterministic" shape=box]
+		Uruguay [label="Uruguay
+~
+Normal" shape=ellipse style=filled]
+		Thailand [label="Thailand
+~
+Normal" shape=ellipse style=filled]
+		"μ_Egypt" [label="μ_Egypt
+~
+Deterministic" shape=box]
+		Bahrain [label="Bahrain
 ~
 Normal" shape=ellipse style=filled]
 		Lithuania [label="Lithuania
 ~
 Normal" shape=ellipse style=filled]
+		"μ_Andorra" [label="μ_Andorra
+~
+Deterministic" shape=box]
+		Ecuador [label="Ecuador
+~
+Normal" shape=ellipse style=filled]
+		"μ_Ecuador" [label="μ_Ecuador
+~
+Deterministic" shape=box]
+		"μ_Belgium" [label="μ_Belgium
+~
+Deterministic" shape=box]
+		Moldova [label="Moldova
+~
+Normal" shape=ellipse style=filled]
+		Slovenia [label="Slovenia
+~
+Normal" shape=ellipse style=filled]
+		Sweden [label="Sweden
+~
+Normal" shape=ellipse style=filled]
+		"μ_India" [label="μ_India
+~
+Deterministic" shape=box]
+		Ireland [label="Ireland
+~
+Normal" shape=ellipse style=filled]
+		Croatia [label="Croatia
+~
+Normal" shape=ellipse style=filled]
+		Turkey [label="Turkey
+~
+Normal" shape=ellipse style=filled]
+		Germany [label="Germany
+~
+Normal" shape=ellipse style=filled]
+		Latvia [label="Latvia
+~
+Normal" shape=ellipse style=filled]
+		"μ_Switzerland" [label="μ_Switzerland
+~
+Deterministic" shape=box]
+		"μ_Qatar" [label="μ_Qatar
+~
+Deterministic" shape=box]
+		"Costa Rica" [label="Costa Rica
+~
+Normal" shape=ellipse style=filled]
+		"μ_Italy" [label="μ_Italy
+~
+Deterministic" shape=box]
+		"μ_Bulgaria" [label="μ_Bulgaria
+~
+Deterministic" shape=box]
+		"μ_United Arab Emirates" [label="μ_United Arab Emirates
+~
+Deterministic" shape=box]
+		"μ_Romania" [label="μ_Romania
+~
+Deterministic" shape=box]
+		Canada [label="Canada
+~
+Normal" shape=ellipse style=filled]
 		"μ_Philippines" [label="μ_Philippines
+~
+Deterministic" shape=box]
+		Indonesia [label="Indonesia
+~
+Normal" shape=ellipse style=filled]
+		Serbia [label="Serbia
+~
+Normal" shape=ellipse style=filled]
+		Chile [label="Chile
+~
+Normal" shape=ellipse style=filled]
+		"μ_Lithuania" [label="μ_Lithuania
+~
+Deterministic" shape=box]
+		Brazil [label="Brazil
+~
+Normal" shape=ellipse style=filled]
+		Italy [label="Italy
+~
+Normal" shape=ellipse style=filled]
+		"μ_Jordan" [label="μ_Jordan
+~
+Deterministic" shape=box]
+		Russia [label="Russia
+~
+Normal" shape=ellipse style=filled]
+		Austria [label="Austria
+~
+Normal" shape=ellipse style=filled]
+		"μ_Algeria" [label="μ_Algeria
+~
+Deterministic" shape=box]
+		Israel [label="Israel
+~
+Normal" shape=ellipse style=filled]
+		US [label="US
+~
+Normal" shape=ellipse style=filled]
+		Jordan [label="Jordan
+~
+Normal" shape=ellipse style=filled]
+		Australia [label="Australia
+~
+Normal" shape=ellipse style=filled]
+		"μ_Norway" [label="μ_Norway
+~
+Deterministic" shape=box]
+		"μ_Germany" [label="μ_Germany
+~
+Deterministic" shape=box]
+		Peru [label="Peru
+~
+Normal" shape=ellipse style=filled]
+		"μ_Hungary" [label="μ_Hungary
+~
+Deterministic" shape=box]
+		Morocco [label="Morocco
+~
+Normal" shape=ellipse style=filled]
+		"μ_Moldova" [label="μ_Moldova
+~
+Deterministic" shape=box]
+		Spain [label="Spain
+~
+Normal" shape=ellipse style=filled]
+		Iran [label="Iran
+~
+Normal" shape=ellipse style=filled]
+		"μ_South Africa" [label="μ_South Africa
+~
+Deterministic" shape=box]
+		Luxembourg [label="Luxembourg
+~
+Normal" shape=ellipse style=filled]
+		Kuwait [label="Kuwait
+~
+Normal" shape=ellipse style=filled]
+		"μ_Turkey" [label="μ_Turkey
+~
+Deterministic" shape=box]
+		"μ_Armenia" [label="μ_Armenia
+~
+Deterministic" shape=box]
+		"μ_Australia" [label="μ_Australia
+~
+Deterministic" shape=box]
+		Estonia [label="Estonia
+~
+Normal" shape=ellipse style=filled]
+		"μ_Ireland" [label="μ_Ireland
+~
+Deterministic" shape=box]
+		"Saudi Arabia" [label="Saudi Arabia
+~
+Normal" shape=ellipse style=filled]
+		Singapore [label="Singapore
+~
+Normal" shape=ellipse style=filled]
+		"μ_Malaysia" [label="μ_Malaysia
+~
+Deterministic" shape=box]
+		France [label="France
+~
+Normal" shape=ellipse style=filled]
+		"μ_Israel" [label="μ_Israel
+~
+Deterministic" shape=box]
+		"μ_Peru" [label="μ_Peru
+~
+Deterministic" shape=box]
+		Denmark [label="Denmark
+~
+Normal" shape=ellipse style=filled]
+		Greece [label="Greece
+~
+Normal" shape=ellipse style=filled]
+		"μ_Russia" [label="μ_Russia
+~
+Deterministic" shape=box]
+		"μ_France" [label="μ_France
+~
+Deterministic" shape=box]
+		"North Macedonia" [label="North Macedonia
+~
+Normal" shape=ellipse style=filled]
+		"μ_Croatia" [label="μ_Croatia
+~
+Deterministic" shape=box]
+		"μ_Uruguay" [label="μ_Uruguay
+~
+Deterministic" shape=box]
+		"μ_Albania" [label="μ_Albania
+~
+Deterministic" shape=box]
+		"μ_Portugal" [label="μ_Portugal
+~
+Deterministic" shape=box]
+		Algeria [label="Algeria
+~
+Normal" shape=ellipse style=filled]
+		"μ_Poland" [label="μ_Poland
+~
+Deterministic" shape=box]
+		Hungary [label="Hungary
+~
+Normal" shape=ellipse style=filled]
+		Colombia [label="Colombia
+~
+Normal" shape=ellipse style=filled]
+		Romania [label="Romania
+~
+Normal" shape=ellipse style=filled]
+		Malta [label="Malta
+~
+Normal" shape=ellipse style=filled]
+		"μ_Bosnia and Herzegovina" [label="μ_Bosnia and Herzegovina
+~
+Deterministic" shape=box]
+		"μ_Iran" [label="μ_Iran
+~
+Deterministic" shape=box]
+		"μ_Kuwait" [label="μ_Kuwait
+~
+Deterministic" shape=box]
+		"United Arab Emirates" [label="United Arab Emirates
+~
+Normal" shape=ellipse style=filled]
+		"μ_Panama" [label="μ_Panama
+~
+Deterministic" shape=box]
+		India [label="India
+~
+Normal" shape=ellipse style=filled]
+		Iraq [label="Iraq
+~
+Normal" shape=ellipse style=filled]
+		Czechia [label="Czechia
+~
+Normal" shape=ellipse style=filled]
+		Finland [label="Finland
+~
+Normal" shape=ellipse style=filled]
+		"μ_Japan" [label="μ_Japan
+~
+Deterministic" shape=box]
+		"μ_Finland" [label="μ_Finland
+~
+Deterministic" shape=box]
+		Portugal [label="Portugal
+~
+Normal" shape=ellipse style=filled]
+		"United Kingdom" [label="United Kingdom
+~
+Normal" shape=ellipse style=filled]
+		Andorra [label="Andorra
+~
+Normal" shape=ellipse style=filled]
+		"Bosnia and Herzegovina" [label="Bosnia and Herzegovina
+~
+Normal" shape=ellipse style=filled]
+		"μ_US" [label="μ_US
+~
+Deterministic" shape=box]
+		Netherlands [label="Netherlands
+~
+Normal" shape=ellipse style=filled]
+		Qatar [label="Qatar
+~
+Normal" shape=ellipse style=filled]
+		Malaysia [label="Malaysia
+~
+Normal" shape=ellipse style=filled]
+		"μ_Netherlands" [label="μ_Netherlands
+~
+Deterministic" shape=box]
+		"μ_Bahrain" [label="μ_Bahrain
+~
+Deterministic" shape=box]
+		"μ_Latvia" [label="μ_Latvia
+~
+Deterministic" shape=box]
+		Switzerland [label="Switzerland
+~
+Normal" shape=ellipse style=filled]
+		"μ_Mexico" [label="μ_Mexico
+~
+Deterministic" shape=box]
+		"μ_Singapore" [label="μ_Singapore
+~
+Deterministic" shape=box]
+		"μ_Luxembourg" [label="μ_Luxembourg
+~
+Deterministic" shape=box]
+		"μ_Cyprus" [label="μ_Cyprus
+~
+Deterministic" shape=box]
+		"μ_Canada" [label="μ_Canada
+~
+Deterministic" shape=box]
+		Bulgaria [label="Bulgaria
+~
+Normal" shape=ellipse style=filled]
+		"μ_Argentina" [label="μ_Argentina
+~
+Deterministic" shape=box]
+		"μ_Indonesia" [label="μ_Indonesia
+~
+Deterministic" shape=box]
+		"μ_Lebanon" [label="μ_Lebanon
+~
+Deterministic" shape=box]
+		Slovakia [label="Slovakia
+~
+Normal" shape=ellipse style=filled]
+		"μ_Slovenia" [label="μ_Slovenia
+~
+Deterministic" shape=box]
+		Cyprus [label="Cyprus
+~
+Normal" shape=ellipse style=filled]
+		"μ_Greece" [label="μ_Greece
+~
+Deterministic" shape=box]
+		"μ_Estonia" [label="μ_Estonia
+~
+Deterministic" shape=box]
+		"μ_Chile" [label="μ_Chile
 ~
 Deterministic" shape=box]
 		label=433 labeljust=r labelloc=b style=rounded
 	}
 	"α_μ" -> "α"
 	"α_σ" -> "α"
-	"β_μ" -> "β"
 	"β_σ" -> "β"
-	"α" -> "μ_Albania"
+	"β_μ" -> "β"
 	"β" -> "μ_Albania"
 	X -> "μ_Albania"
+	"α" -> "μ_Albania"
 	"μ_Albania" -> Albania
 	"σ" -> Albania
 	Y -> Albania
-	"α" -> "μ_Algeria"
 	"β" -> "μ_Algeria"
 	X -> "μ_Algeria"
-	"μ_Algeria" -> Algeria
+	"α" -> "μ_Algeria"
 	"σ" -> Algeria
 	Y -> Algeria
-	"α" -> "μ_Andorra"
+	"μ_Algeria" -> Algeria
 	"β" -> "μ_Andorra"
 	X -> "μ_Andorra"
+	"α" -> "μ_Andorra"
 	"μ_Andorra" -> Andorra
 	"σ" -> Andorra
 	Y -> Andorra
-	"α" -> "μ_Argentina"
 	"β" -> "μ_Argentina"
 	X -> "μ_Argentina"
+	"α" -> "μ_Argentina"
 	"σ" -> Argentina
 	Y -> Argentina
 	"μ_Argentina" -> Argentina
-	"α" -> "μ_Armenia"
 	"β" -> "μ_Armenia"
 	X -> "μ_Armenia"
+	"α" -> "μ_Armenia"
 	"σ" -> Armenia
-	"μ_Armenia" -> Armenia
 	Y -> Armenia
-	"α" -> "μ_Australia"
+	"μ_Armenia" -> Armenia
 	"β" -> "μ_Australia"
 	X -> "μ_Australia"
+	"α" -> "μ_Australia"
 	"μ_Australia" -> Australia
 	"σ" -> Australia
 	Y -> Australia
-	"α" -> "μ_Austria"
 	"β" -> "μ_Austria"
 	X -> "μ_Austria"
-	"μ_Austria" -> Austria
-	"σ" -> Austria
+	"α" -> "μ_Austria"
 	Y -> Austria
-	"α" -> "μ_Bahrain"
+	"σ" -> Austria
+	"μ_Austria" -> Austria
 	"β" -> "μ_Bahrain"
 	X -> "μ_Bahrain"
+	"α" -> "μ_Bahrain"
 	"σ" -> Bahrain
-	"μ_Bahrain" -> Bahrain
 	Y -> Bahrain
-	"α" -> "μ_Belgium"
+	"μ_Bahrain" -> Bahrain
 	"β" -> "μ_Belgium"
 	X -> "μ_Belgium"
+	"α" -> "μ_Belgium"
 	"σ" -> Belgium
-	"μ_Belgium" -> Belgium
 	Y -> Belgium
-	"α" -> "μ_Bosnia and Herzegovina"
+	"μ_Belgium" -> Belgium
 	"β" -> "μ_Bosnia and Herzegovina"
 	X -> "μ_Bosnia and Herzegovina"
-	"σ" -> "Bosnia and Herzegovina"
+	"α" -> "μ_Bosnia and Herzegovina"
 	"μ_Bosnia and Herzegovina" -> "Bosnia and Herzegovina"
+	"σ" -> "Bosnia and Herzegovina"
 	Y -> "Bosnia and Herzegovina"
-	"α" -> "μ_Brazil"
 	"β" -> "μ_Brazil"
 	X -> "μ_Brazil"
+	"α" -> "μ_Brazil"
 	"σ" -> Brazil
-	"μ_Brazil" -> Brazil
 	Y -> Brazil
-	"α" -> "μ_Bulgaria"
+	"μ_Brazil" -> Brazil
 	"β" -> "μ_Bulgaria"
 	X -> "μ_Bulgaria"
-	"μ_Bulgaria" -> Bulgaria
+	"α" -> "μ_Bulgaria"
 	"σ" -> Bulgaria
 	Y -> Bulgaria
-	"α" -> "μ_Canada"
+	"μ_Bulgaria" -> Bulgaria
 	"β" -> "μ_Canada"
 	X -> "μ_Canada"
-	"σ" -> Canada
+	"α" -> "μ_Canada"
 	"μ_Canada" -> Canada
+	"σ" -> Canada
 	Y -> Canada
-	"α" -> "μ_Chile"
 	"β" -> "μ_Chile"
 	X -> "μ_Chile"
+	"α" -> "μ_Chile"
 	"σ" -> Chile
-	"μ_Chile" -> Chile
 	Y -> Chile
-	"α" -> "μ_Colombia"
+	"μ_Chile" -> Chile
 	"β" -> "μ_Colombia"
 	X -> "μ_Colombia"
+	"α" -> "μ_Colombia"
+	"μ_Colombia" -> Colombia
 	"σ" -> Colombia
 	Y -> Colombia
-	"μ_Colombia" -> Colombia
-	"α" -> "μ_Costa Rica"
 	"β" -> "μ_Costa Rica"
 	X -> "μ_Costa Rica"
-	"σ" -> "Costa Rica"
+	"α" -> "μ_Costa Rica"
 	"μ_Costa Rica" -> "Costa Rica"
+	"σ" -> "Costa Rica"
 	Y -> "Costa Rica"
-	"α" -> "μ_Croatia"
 	"β" -> "μ_Croatia"
 	X -> "μ_Croatia"
-	"σ" -> Croatia
+	"α" -> "μ_Croatia"
 	"μ_Croatia" -> Croatia
+	"σ" -> Croatia
 	Y -> Croatia
-	"α" -> "μ_Cyprus"
 	"β" -> "μ_Cyprus"
 	X -> "μ_Cyprus"
-	Y -> Cyprus
-	"σ" -> Cyprus
+	"α" -> "μ_Cyprus"
 	"μ_Cyprus" -> Cyprus
-	"α" -> "μ_Czechia"
+	"σ" -> Cyprus
+	Y -> Cyprus
 	"β" -> "μ_Czechia"
 	X -> "μ_Czechia"
+	"α" -> "μ_Czechia"
 	"σ" -> Czechia
-	"μ_Czechia" -> Czechia
 	Y -> Czechia
-	"α" -> "μ_Denmark"
+	"μ_Czechia" -> Czechia
 	"β" -> "μ_Denmark"
 	X -> "μ_Denmark"
-	"σ" -> Denmark
+	"α" -> "μ_Denmark"
 	"μ_Denmark" -> Denmark
+	"σ" -> Denmark
 	Y -> Denmark
-	"α" -> "μ_Dominican Republic"
 	"β" -> "μ_Dominican Republic"
 	X -> "μ_Dominican Republic"
-	"μ_Dominican Republic" -> "Dominican Republic"
+	"α" -> "μ_Dominican Republic"
 	"σ" -> "Dominican Republic"
 	Y -> "Dominican Republic"
-	"α" -> "μ_Ecuador"
+	"μ_Dominican Republic" -> "Dominican Republic"
 	"β" -> "μ_Ecuador"
 	X -> "μ_Ecuador"
+	"α" -> "μ_Ecuador"
+	Y -> Ecuador
 	"σ" -> Ecuador
 	"μ_Ecuador" -> Ecuador
-	Y -> Ecuador
-	"α" -> "μ_Egypt"
 	"β" -> "μ_Egypt"
 	X -> "μ_Egypt"
+	"α" -> "μ_Egypt"
+	"μ_Egypt" -> Egypt
 	"σ" -> Egypt
 	Y -> Egypt
-	"μ_Egypt" -> Egypt
-	"α" -> "μ_Estonia"
 	"β" -> "μ_Estonia"
 	X -> "μ_Estonia"
+	"α" -> "μ_Estonia"
 	Y -> Estonia
 	"σ" -> Estonia
 	"μ_Estonia" -> Estonia
-	"α" -> "μ_Finland"
 	"β" -> "μ_Finland"
 	X -> "μ_Finland"
-	Y -> Finland
+	"α" -> "μ_Finland"
 	"σ" -> Finland
+	Y -> Finland
 	"μ_Finland" -> Finland
-	"α" -> "μ_France"
 	"β" -> "μ_France"
 	X -> "μ_France"
+	"α" -> "μ_France"
 	"σ" -> France
-	"μ_France" -> France
 	Y -> France
-	"α" -> "μ_Germany"
+	"μ_France" -> France
 	"β" -> "μ_Germany"
 	X -> "μ_Germany"
+	"α" -> "μ_Germany"
 	"σ" -> Germany
-	"μ_Germany" -> Germany
 	Y -> Germany
-	"α" -> "μ_Greece"
+	"μ_Germany" -> Germany
 	"β" -> "μ_Greece"
 	X -> "μ_Greece"
+	"α" -> "μ_Greece"
 	"σ" -> Greece
-	"μ_Greece" -> Greece
 	Y -> Greece
-	"α" -> "μ_Hungary"
+	"μ_Greece" -> Greece
 	"β" -> "μ_Hungary"
 	X -> "μ_Hungary"
-	"μ_Hungary" -> Hungary
-	"σ" -> Hungary
+	"α" -> "μ_Hungary"
 	Y -> Hungary
-	"α" -> "μ_India"
+	"σ" -> Hungary
+	"μ_Hungary" -> Hungary
 	"β" -> "μ_India"
 	X -> "μ_India"
+	"α" -> "μ_India"
 	"σ" -> India
-	Y -> India
 	"μ_India" -> India
-	"α" -> "μ_Indonesia"
+	Y -> India
 	"β" -> "μ_Indonesia"
 	X -> "μ_Indonesia"
+	"α" -> "μ_Indonesia"
 	"σ" -> Indonesia
-	"μ_Indonesia" -> Indonesia
 	Y -> Indonesia
-	"α" -> "μ_Iran"
+	"μ_Indonesia" -> Indonesia
 	"β" -> "μ_Iran"
 	X -> "μ_Iran"
-	"μ_Iran" -> Iran
+	"α" -> "μ_Iran"
 	"σ" -> Iran
+	"μ_Iran" -> Iran
 	Y -> Iran
-	"α" -> "μ_Iraq"
 	"β" -> "μ_Iraq"
 	X -> "μ_Iraq"
-	"μ_Iraq" -> Iraq
+	"α" -> "μ_Iraq"
 	"σ" -> Iraq
 	Y -> Iraq
-	"α" -> "μ_Ireland"
+	"μ_Iraq" -> Iraq
 	"β" -> "μ_Ireland"
 	X -> "μ_Ireland"
+	"α" -> "μ_Ireland"
 	"σ" -> Ireland
 	"μ_Ireland" -> Ireland
 	Y -> Ireland
-	"α" -> "μ_Israel"
 	"β" -> "μ_Israel"
 	X -> "μ_Israel"
+	"α" -> "μ_Israel"
 	Y -> Israel
 	"σ" -> Israel
 	"μ_Israel" -> Israel
-	"α" -> "μ_Italy"
 	"β" -> "μ_Italy"
 	X -> "μ_Italy"
-	Y -> Italy
-	"σ" -> Italy
+	"α" -> "μ_Italy"
 	"μ_Italy" -> Italy
-	"α" -> "μ_Japan"
+	"σ" -> Italy
+	Y -> Italy
 	"β" -> "μ_Japan"
 	X -> "μ_Japan"
-	"σ" -> Japan
+	"α" -> "μ_Japan"
 	"μ_Japan" -> Japan
+	"σ" -> Japan
 	Y -> Japan
-	"α" -> "μ_Jordan"
 	"β" -> "μ_Jordan"
 	X -> "μ_Jordan"
+	"α" -> "μ_Jordan"
 	Y -> Jordan
 	"σ" -> Jordan
 	"μ_Jordan" -> Jordan
-	"α" -> "μ_Kuwait"
 	"β" -> "μ_Kuwait"
 	X -> "μ_Kuwait"
-	Y -> Kuwait
+	"α" -> "μ_Kuwait"
 	"σ" -> Kuwait
+	Y -> Kuwait
 	"μ_Kuwait" -> Kuwait
-	"α" -> "μ_Latvia"
 	"β" -> "μ_Latvia"
 	X -> "μ_Latvia"
+	"α" -> "μ_Latvia"
 	"σ" -> Latvia
-	"μ_Latvia" -> Latvia
 	Y -> Latvia
-	"α" -> "μ_Lebanon"
+	"μ_Latvia" -> Latvia
 	"β" -> "μ_Lebanon"
 	X -> "μ_Lebanon"
-	"σ" -> Lebanon
+	"α" -> "μ_Lebanon"
 	"μ_Lebanon" -> Lebanon
+	"σ" -> Lebanon
 	Y -> Lebanon
-	"α" -> "μ_Lithuania"
 	"β" -> "μ_Lithuania"
 	X -> "μ_Lithuania"
+	"α" -> "μ_Lithuania"
 	"σ" -> Lithuania
-	Y -> Lithuania
 	"μ_Lithuania" -> Lithuania
-	"α" -> "μ_Luxembourg"
+	Y -> Lithuania
 	"β" -> "μ_Luxembourg"
 	X -> "μ_Luxembourg"
+	"α" -> "μ_Luxembourg"
 	"σ" -> Luxembourg
-	"μ_Luxembourg" -> Luxembourg
 	Y -> Luxembourg
-	"α" -> "μ_Malaysia"
+	"μ_Luxembourg" -> Luxembourg
 	"β" -> "μ_Malaysia"
 	X -> "μ_Malaysia"
+	"α" -> "μ_Malaysia"
 	"σ" -> Malaysia
 	"μ_Malaysia" -> Malaysia
 	Y -> Malaysia
-	"α" -> "μ_Malta"
 	"β" -> "μ_Malta"
 	X -> "μ_Malta"
+	"α" -> "μ_Malta"
+	"μ_Malta" -> Malta
 	"σ" -> Malta
 	Y -> Malta
-	"μ_Malta" -> Malta
-	"α" -> "μ_Mexico"
 	"β" -> "μ_Mexico"
 	X -> "μ_Mexico"
+	"α" -> "μ_Mexico"
 	"σ" -> Mexico
-	"μ_Mexico" -> Mexico
 	Y -> Mexico
-	"α" -> "μ_Moldova"
+	"μ_Mexico" -> Mexico
 	"β" -> "μ_Moldova"
 	X -> "μ_Moldova"
-	Y -> Moldova
+	"α" -> "μ_Moldova"
 	"σ" -> Moldova
+	Y -> Moldova
 	"μ_Moldova" -> Moldova
-	"α" -> "μ_Morocco"
 	"β" -> "μ_Morocco"
 	X -> "μ_Morocco"
-	Y -> Morocco
-	"σ" -> Morocco
+	"α" -> "μ_Morocco"
 	"μ_Morocco" -> Morocco
-	"α" -> "μ_Netherlands"
+	"σ" -> Morocco
+	Y -> Morocco
 	"β" -> "μ_Netherlands"
 	X -> "μ_Netherlands"
-	"μ_Netherlands" -> Netherlands
+	"α" -> "μ_Netherlands"
 	"σ" -> Netherlands
+	"μ_Netherlands" -> Netherlands
 	Y -> Netherlands
-	"α" -> "μ_North Macedonia"
 	"β" -> "μ_North Macedonia"
 	X -> "μ_North Macedonia"
+	"α" -> "μ_North Macedonia"
 	"σ" -> "North Macedonia"
-	"μ_North Macedonia" -> "North Macedonia"
 	Y -> "North Macedonia"
-	"α" -> "μ_Norway"
+	"μ_North Macedonia" -> "North Macedonia"
 	"β" -> "μ_Norway"
 	X -> "μ_Norway"
-	"σ" -> Norway
+	"α" -> "μ_Norway"
 	"μ_Norway" -> Norway
+	"σ" -> Norway
 	Y -> Norway
-	"α" -> "μ_Pakistan"
 	"β" -> "μ_Pakistan"
 	X -> "μ_Pakistan"
+	"α" -> "μ_Pakistan"
 	"μ_Pakistan" -> Pakistan
 	"σ" -> Pakistan
 	Y -> Pakistan
-	"α" -> "μ_Panama"
 	"β" -> "μ_Panama"
 	X -> "μ_Panama"
+	"α" -> "μ_Panama"
 	"σ" -> Panama
-	"μ_Panama" -> Panama
 	Y -> Panama
-	"α" -> "μ_Peru"
+	"μ_Panama" -> Panama
 	"β" -> "μ_Peru"
 	X -> "μ_Peru"
+	"α" -> "μ_Peru"
 	"σ" -> Peru
 	"μ_Peru" -> Peru
 	Y -> Peru
-	"α" -> "μ_Philippines"
 	"β" -> "μ_Philippines"
 	X -> "μ_Philippines"
+	"α" -> "μ_Philippines"
+	Y -> Philippines
 	"σ" -> Philippines
 	"μ_Philippines" -> Philippines
-	Y -> Philippines
-	"α" -> "μ_Poland"
 	"β" -> "μ_Poland"
 	X -> "μ_Poland"
+	"α" -> "μ_Poland"
 	"σ" -> Poland
 	Y -> Poland
 	"μ_Poland" -> Poland
-	"α" -> "μ_Portugal"
 	"β" -> "μ_Portugal"
 	X -> "μ_Portugal"
+	"α" -> "μ_Portugal"
+	Y -> Portugal
 	"σ" -> Portugal
 	"μ_Portugal" -> Portugal
-	Y -> Portugal
-	"α" -> "μ_Qatar"
 	"β" -> "μ_Qatar"
 	X -> "μ_Qatar"
-	"σ" -> Qatar
+	"α" -> "μ_Qatar"
 	"μ_Qatar" -> Qatar
+	"σ" -> Qatar
 	Y -> Qatar
-	"α" -> "μ_Romania"
 	"β" -> "μ_Romania"
 	X -> "μ_Romania"
+	"α" -> "μ_Romania"
 	"σ" -> Romania
 	"μ_Romania" -> Romania
 	Y -> Romania
-	"α" -> "μ_Russia"
 	"β" -> "μ_Russia"
 	X -> "μ_Russia"
+	"α" -> "μ_Russia"
 	"σ" -> Russia
 	Y -> Russia
 	"μ_Russia" -> Russia
-	"α" -> "μ_Saudi Arabia"
 	"β" -> "μ_Saudi Arabia"
 	X -> "μ_Saudi Arabia"
-	"μ_Saudi Arabia" -> "Saudi Arabia"
-	"σ" -> "Saudi Arabia"
+	"α" -> "μ_Saudi Arabia"
 	Y -> "Saudi Arabia"
-	"α" -> "μ_Serbia"
+	"σ" -> "Saudi Arabia"
+	"μ_Saudi Arabia" -> "Saudi Arabia"
 	"β" -> "μ_Serbia"
 	X -> "μ_Serbia"
-	Y -> Serbia
-	"σ" -> Serbia
+	"α" -> "μ_Serbia"
 	"μ_Serbia" -> Serbia
-	"α" -> "μ_Singapore"
+	"σ" -> Serbia
+	Y -> Serbia
 	"β" -> "μ_Singapore"
 	X -> "μ_Singapore"
+	"α" -> "μ_Singapore"
 	"σ" -> Singapore
-	"μ_Singapore" -> Singapore
 	Y -> Singapore
-	"α" -> "μ_Slovakia"
+	"μ_Singapore" -> Singapore
 	"β" -> "μ_Slovakia"
 	X -> "μ_Slovakia"
+	"α" -> "μ_Slovakia"
 	"σ" -> Slovakia
 	"μ_Slovakia" -> Slovakia
 	Y -> Slovakia
-	"α" -> "μ_Slovenia"
 	"β" -> "μ_Slovenia"
 	X -> "μ_Slovenia"
+	"α" -> "μ_Slovenia"
 	"σ" -> Slovenia
-	"μ_Slovenia" -> Slovenia
 	Y -> Slovenia
-	"α" -> "μ_South Africa"
+	"μ_Slovenia" -> Slovenia
 	"β" -> "μ_South Africa"
 	X -> "μ_South Africa"
-	"σ" -> "South Africa"
+	"α" -> "μ_South Africa"
 	"μ_South Africa" -> "South Africa"
+	"σ" -> "South Africa"
 	Y -> "South Africa"
-	"α" -> "μ_Spain"
 	"β" -> "μ_Spain"
 	X -> "μ_Spain"
+	"α" -> "μ_Spain"
 	Y -> Spain
 	"σ" -> Spain
 	"μ_Spain" -> Spain
-	"α" -> "μ_Sweden"
 	"β" -> "μ_Sweden"
 	X -> "μ_Sweden"
+	"α" -> "μ_Sweden"
 	"σ" -> Sweden
-	"μ_Sweden" -> Sweden
 	Y -> Sweden
-	"α" -> "μ_Switzerland"
+	"μ_Sweden" -> Sweden
 	"β" -> "μ_Switzerland"
 	X -> "μ_Switzerland"
+	"α" -> "μ_Switzerland"
 	"σ" -> Switzerland
-	"μ_Switzerland" -> Switzerland
 	Y -> Switzerland
-	"α" -> "μ_Thailand"
+	"μ_Switzerland" -> Switzerland
 	"β" -> "μ_Thailand"
 	X -> "μ_Thailand"
+	"α" -> "μ_Thailand"
 	"σ" -> Thailand
 	"μ_Thailand" -> Thailand
 	Y -> Thailand
-	"α" -> "μ_Turkey"
 	"β" -> "μ_Turkey"
 	X -> "μ_Turkey"
-	Y -> Turkey
+	"α" -> "μ_Turkey"
 	"σ" -> Turkey
+	Y -> Turkey
 	"μ_Turkey" -> Turkey
-	"α" -> "μ_US"
 	"β" -> "μ_US"
 	X -> "μ_US"
-	"σ" -> US
+	"α" -> "μ_US"
 	"μ_US" -> US
+	"σ" -> US
 	Y -> US
-	"α" -> "μ_United Arab Emirates"
 	"β" -> "μ_United Arab Emirates"
 	X -> "μ_United Arab Emirates"
-	"σ" -> "United Arab Emirates"
+	"α" -> "μ_United Arab Emirates"
 	"μ_United Arab Emirates" -> "United Arab Emirates"
+	"σ" -> "United Arab Emirates"
 	Y -> "United Arab Emirates"
-	"α" -> "μ_United Kingdom"
 	"β" -> "μ_United Kingdom"
 	X -> "μ_United Kingdom"
-	"σ" -> "United Kingdom"
+	"α" -> "μ_United Kingdom"
 	"μ_United Kingdom" -> "United Kingdom"
+	"σ" -> "United Kingdom"
 	Y -> "United Kingdom"
-	"α" -> "μ_Uruguay"
 	"β" -> "μ_Uruguay"
 	X -> "μ_Uruguay"
-	"μ_Uruguay" -> Uruguay
+	"α" -> "μ_Uruguay"
 	"σ" -> Uruguay
 	Y -> Uruguay
+	"μ_Uruguay" -> Uruguay
 }
