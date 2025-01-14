@@ -9,19 +9,19 @@ Data" shape=box style="rounded, filled"]
 		pooled [label="pooled
 ~
 Normal" shape=ellipse style=filled]
-		Y [label="Y
-~
-Data" shape=box style="rounded, filled"]
 		"μ" [label="μ
 ~
 Deterministic" shape=box]
+		Y [label="Y
+~
+Data" shape=box style="rounded, filled"]
 		label=32475 labeljust=r labelloc=b style=rounded
 	}
 	subgraph cluster75 {
-		"β" [label="β
+		"α" [label="α
 ~
 Normal" shape=ellipse]
-		"α" [label="α
+		"β" [label="β
 ~
 Normal" shape=ellipse]
 		"σ" [label="σ
@@ -30,8 +30,8 @@ HalfNormal" shape=ellipse]
 		label=75 labeljust=r labelloc=b style=rounded
 	}
 	pooled -> Y
-	"β" -> "μ"
 	"α" -> "μ"
+	"β" -> "μ"
 	X -> "μ"
 	"σ" -> pooled
 	"μ" -> pooled

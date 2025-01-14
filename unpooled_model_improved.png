@@ -1,8 +1,8 @@
 digraph {
-	"β" [label="β
+	"α" [label="α
 ~
 Normal" shape=ellipse]
-	"α" [label="α
+	"β" [label="β
 ~
 Normal" shape=ellipse]
 	"σ" [label="σ
@@ -17,8 +17,8 @@ Normal" shape=ellipse style=filled]
 Deterministic" shape=box]
 		label=452 labeljust=r labelloc=b style=rounded
 	}
-	"β" -> "μ"
 	"α" -> "μ"
+	"β" -> "μ"
 	"σ" -> US
 	"μ" -> US
 }
