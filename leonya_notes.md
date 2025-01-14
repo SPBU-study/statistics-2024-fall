@@ -6,3 +6,7 @@
 Tried different data setups:
 	- As is
 	- With cutting off first N days (N = 100)
+
+3. Tried hierarchical GP model:
+	- [Dummy](gp_model_hierarchical_dummy.ipynb)
+	- [Better](gp_model_hierarchical.ipynb) (but longer...)
